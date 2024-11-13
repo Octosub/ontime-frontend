@@ -12,7 +12,7 @@ export const handleSubmit = async (
   const { station, direction } = props;
 
   try {
-    const response = await fetch(`https://localhost:8000/${station}?direction=${direction}`);
+    const response = await fetch(`api/${station}?direction=${direction}`);
     if (!response.ok) {
       throw new Error("Api call failed");
     }

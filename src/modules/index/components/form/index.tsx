@@ -23,7 +23,7 @@ export const Form = (props: FormProps) => {
     <Box>
       <h1>Form</h1>
       <form onSubmit={handleSubmit(onSubmit)}>
-        <input defaultValue="東京" {...register("station")} />
+        <input defaultValue="水道橋" {...register("station")} />
         <input defaultValue="north" {...register("direction")} />
         <input type="submit" />
       </form>
