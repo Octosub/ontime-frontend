@@ -1,9 +1,10 @@
 import { Box } from "@mui/material";
+import { Index } from "@/src/modules/index";
 
 export default function Home() {
   return (
     <Box>
-      <h1>On Time</h1>
+      <Index />
     </Box>
   );
 }
